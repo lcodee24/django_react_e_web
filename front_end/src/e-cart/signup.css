@@ -1,0 +1,53 @@
+.sp_inp{
+  padding-top:0px;
+  padding-bottom:0px;
+  font-size: 14px; 
+  border:2px solid black !important;
+  padding-left: 10px !important;
+}
+
+#floatingName::placeholder {
+    padding-left: 10px;
+}
+
+
+form{
+  background:linear-gradient(to left , lightgreen,lightpink,lightblue);
+  border-radius:15px;
+  padding:20px 10px;
+  width: 100%;
+}
+
+@media screen and (min-width:400px){
+  form{
+    width:80%;
+  }
+}
+
+
+@media screen and (min-width:700px){
+  form{
+    width:70%;
+  }
+}
+
+
+@media screen and (min-width:1000px){
+    form{
+      width:50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

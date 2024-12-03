@@ -1,0 +1,9 @@
+.App p{
+  text-align: center;
+  font-size: 200px;
+  color:lightgreen
+}
+
+*{
+  user-select: none;
+}

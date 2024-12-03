@@ -1,0 +1,52 @@
+.home_navbar{
+   position:sticky!important;
+   z-index: 100 !important;
+   top:0;
+}
+
+.cart-count-link{
+   position: relative;
+}
+
+.cart-count{
+  width:auto;
+  height:22px;
+  position: absolute;
+  top:13px;
+  left:23px;
+  color:white;
+  font-size:16px;
+}
+
+.cart-icon{
+  font-size:50px;
+   opacity:0.7;
+   color:red;
+}
+
+
+.cart-icon:hover{
+   color:greenyellow;
+}
+
+.cart-icon-add{
+  font-size:30px;
+  color:chartreuse
+}
+
+@media screen and (max-width:992px) {
+  .cart-count{
+    top:13px;
+    left:23px;
+  }
+
+  
+}
+
+.cart-count-link .cart{
+  font-family: cursive !important;
+  font-size:1.7rem;
+
+  
+
+}
